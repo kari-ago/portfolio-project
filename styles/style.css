@@ -4,6 +4,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+
 .container {
   margin-top: 100px;
 }
@@ -99,4 +100,26 @@ p {
 .btn {
     background: #6c63ff;
     color: white;
+}
+
+@media (min-width: 276px) { 
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;  
+    text-align: center;
+  }
+
+  h3 {
+      font-size: 18px; 
+  }
+
+  .d-xs-none, .d-sm-none{
+    display: none;
+  }
+  .btn {
+      display: block;
+      margin: auto;
+  }
 }
