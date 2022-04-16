@@ -118,7 +118,5 @@ p {
   .d-xs-none, .d-sm-none{
     display: none;
   }
-  .btn {
-      margin: auto;
-  }
+  
 }
